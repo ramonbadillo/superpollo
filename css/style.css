@@ -21,7 +21,7 @@
 	7.1 Pager / .pager-container
 8. Our Dishes / #our-dishes
 	8.1 Dishes / #dishes-[left/right]
-9. Shows / #shows
+9. catering / #catering
 10. Popular Dishes / #popular-dishes
 	10.1 Dish Listing / .dishes
 11. Specials / #specials
@@ -769,12 +769,12 @@ header ul.main-slider h2 {
 /***************************************/
 
 
-/* 9. SHOWS */
+/* 9. catering */
 
 
 /***************************************/
 
-#shows {
+#catering {
     background: url('../images/dots-texture.png') repeat, url('../images/show-bg.jpg') center;
     padding-top: 100px;
     position: relative;
@@ -783,21 +783,21 @@ header ul.main-slider h2 {
     -webkit-background-size: 2px 2px, cover;
 }
 
-#shows img[alt='show-model'] {
+#catering img[alt='show-model'] {
     position: absolute;
     bottom: 0;
     left: 8%;
 }
 
-#shows>article {
+#catering>article {
     margin-left: 45%;
 }
 
-#shows>article>p {
+#catering>article>p {
     color: #fff;
 }
 
-#shows>article>h3+p {
+#catering>article>h3+p {
     font-size: 1.125em;
     /* 18px / 16px */
     letter-spacing: .32em;
@@ -807,17 +807,17 @@ header ul.main-slider h2 {
     margin: 10px 0 25px;
 }
 
-#shows>article>h3+p:before {
+#catering>article>h3+p:before {
     content: url('../images/show-left-decor.png');
     margin-right: 15px;
 }
 
-#shows>article>h3+p:after {
+#catering>article>h3+p:after {
     content: url('../images/show-right-decor.png');
     margin-left: 8px;
 }
 
-#shows>article>p+p {
+#catering>article>p+p {
     width: 84%;
     margin-bottom: 55px;
 }
@@ -2957,9 +2957,9 @@ footer>#copy>nav>ul>li>a:hover {
         margin-right: 15%;
     }
     /*---------------
-		SHOWS
+		catering
 	---------------*/
-    #shows img[alt='show-model'] {
+    #catering img[alt='show-model'] {
         left: 3%;
     }
     /*---------------
@@ -3123,19 +3123,19 @@ footer>#copy>nav>ul>li>a:hover {
         width: 75%;
     }
     /*---------------
-		SHOWS
+		catering
 	---------------*/
-    #shows img[alt='show-model'] {
+    #catering img[alt='show-model'] {
         display: none;
     }
-    #shows>article {
+    #catering>article {
         margin: 0 auto;
         text-align: center;
     }
-    #shows>article>p+p {
+    #catering>article>p+p {
         margin: 0 auto 55px;
     }
-    #shows>article>a.square-button {
+    #catering>article>a.square-button {
         margin: 0 auto;
     }
     /*---------------
@@ -3331,13 +3331,13 @@ footer>#copy>nav>ul>li>a:hover {
         /* 70px / 16px */
     }
     /*---------------
-		SHOWS
+		catering
 	---------------*/
-    #shows>article>h3+p:before,
-    #shows>article>h3+p:after {
+    #catering>article>h3+p:before,
+    #catering>article>h3+p:after {
         display: none;
     }
-    #shows>article>h3 {
+    #catering>article>h3 {
         font-size: 2.5em;
         /* 40px / 16px */
     }
