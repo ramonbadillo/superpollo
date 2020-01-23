@@ -499,7 +499,8 @@
         text-align: center;
         line-height: 70px;
         color: #e6e1c1;
-        font-size: 0.875em;
+        font-size: 1.2em;
+        /* font-size: 0.875em; */
         /* 14px / 16px */
         font-weight: 400;
         font-family: 'Oswald', sans-serif;
@@ -606,6 +607,12 @@
         line-height: 1em;
         color: #fff;
         margin-bottom: 8px;
+    }
+    
+    .slide-title {
+        -webkit-text-stroke: 1px black;
+        color: white;
+        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
     /*-------------
   7.1 PAGER
@@ -746,7 +753,6 @@
         font-weight: 900;
         line-height: 1em;
         margin: 10px 0 25px;
-        background-color: black;
     }
     
     #catering>article>h3+p:before {
@@ -765,7 +771,7 @@
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
         /* font-weight: bold; */
-        border: 1px solid #f1f1f1;
+        /* border: 1px solid #f1f1f1; */
         font-size: 18px;
     }
     /***************************************/

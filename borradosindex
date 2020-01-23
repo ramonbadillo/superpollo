@@ -1,0 +1,100 @@
+<!--OUR DISHES-->
+        <!-- <section id="our-dishes">
+            <img src="images/title-detail.png" alt="title-detail">
+            <h2>Our Dishes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <hr>
+            <article id="dishes-left">
+                <article>
+                    <div>
+                        <h5>Entrees and Fast Foods</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod diren tempor incididunt ut labore et dolore magna porem</p>
+                    </div>
+                    <img src="images/ff-icon.png" alt="hamburger">
+                </article>
+                <article>
+                    <div>
+                        <h5>Pizzas and Calzones</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod diren tempor incididunt ut labore et dolore magna porem</p>
+                    </div>
+                    <img src="images/pc-icon.png" alt="pizza">
+                </article>
+                <article>
+                    <div>
+                        <h5>Drinks and Beverages</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod diren tempor incididunt ut labore et dolore magna porem</p>
+                    </div>
+                    <img src="images/db-icon.png" alt="drinks">
+                </article>
+            </article>
+            <article id="dishes-right">
+                <article>
+                    <div>
+                        <h5>Steak and Chicken</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod diren tempor incididunt ut labore et dolore magna porem</p>
+                    </div>
+                    <img src="images/sc-icon.png" alt="steak">
+                </article>
+                <article>
+                    <div>
+                        <h5>Sandwiches and Subs</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod diren tempor incididunt ut labore et dolore magna porem</p>
+                    </div>
+                    <img src="images/sa-icon.png" alt="sandwiches">
+                </article>
+                <article>
+                    <div>
+                        <h5>Desserts and Sweets</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do re eiusmod diren tempor incididunt ut labore et dolore magna porem</p>
+                    </div>
+                    <img src="images/ds-icon.png" alt="desserts">
+                </article>
+            </article>
+            <img src="images/deli-badge.png" alt="deli-badge">
+        </section> -->
+        <!--/OUR DISHES-->
+        <!--SPECIALS-->
+        <section id="specials">
+            <img src="images/ivy.png" alt="ivy">
+            <figure id="board">
+                <img src="images/specials-title.png" alt="specials-title">
+                <article>
+                    <!--SPECIAL ITEM-->
+                    <article>
+                        <h5>Mozzarella Cheeseburger</h5>
+                        <hr>
+                    </article>
+                    <p>$15.00</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <!--/SPECIAL ITEM-->
+
+                    <!--SPECIAL ITEM-->
+                    <article>
+                        <h5>Dark Side Bacon Pizza</h5>
+                        <hr>
+                    </article>
+                    <p>$32.00</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <!--/SPECIAL ITEM-->
+
+                    <!--SPECIAL ITEM-->
+                    <article>
+                        <h5>Meltdown Nachos</h5>
+                        <hr>
+                    </article>
+                    <p>$17.00</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <!--/SPECIAL ITEM-->
+
+                    <!--SPECIAL ITEM-->
+                    <article>
+                        <h5>Golden Onion Rings</h5>
+                        <hr>
+                    </article>
+                    <p>$21.00</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <!--/SPECIAL ITEM-->
+                </article>
+            </figure>
+        </section>
+        <!--/SPECIALS-->

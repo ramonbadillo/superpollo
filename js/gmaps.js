@@ -51,8 +51,8 @@ function initialize() {
 
     //Map marker info
     var contentString = '<div id="map-info">' +
-        '<h2>Mozzarella</h2>' +
-        '<p style="text-align:left; margin:0;"><strong>Mozzarella</strong>, has the <strong>best food</strong>aa </p>' +
+        '<h2>SuperPollo</h2>' +
+        '<p style="text-align:left; margin:0;"><strong>SuperPollo</strong>, has the <strong>best food</strong>in west texas </p>' +
         '</div>';
 
     //Add info to marker 
