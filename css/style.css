@@ -3140,7 +3140,13 @@
     @media screen and (max-width: 600px) {
         /*---------------
 		HEADER
-	---------------*/
+    ---------------*/
+        footer>#info>article>article.op-hours>div>h6:last-child {
+            float: unset;
+        }
+        #catering {
+            padding-top: 50px;
+        }
         header ul.main-slider img {
             display: none;
         }
@@ -3156,11 +3162,11 @@
         #catering>article>h3+p:after {
             display: none;
         }
-        #catering>article>h3 {
+        /* #catering>article>h3 {
             font-size: 2em;
             background-color: black;
             /* 40px / 16px */
-        }
+        /*} */
         /*---------------
 		VIDEO
 	---------------*/
