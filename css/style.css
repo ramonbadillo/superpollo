@@ -1390,10 +1390,11 @@
         width: 210px;
         margin: 0 auto;
         overflow: hidden;
+        text-align: center;
     }
     
     #contact>ul>li {
-        float: left;
+        /* float: left; */
         margin-right: 15px;
     }
     
