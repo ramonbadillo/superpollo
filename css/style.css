@@ -2855,26 +2855,35 @@
     }
     
     @media screen and (max-width: 1024px) {
+        header ul.main-slider h2 {
+            font-size: 3.5em;
+        }
+        header ul.main-slider h6 {
+            font-size: 1.5em;
+        }
+        header ul.main-slider li {
+            padding-top: 100px;
+        }
         /*---------------
 		HEADER
 	---------------*/
         header>figure {
             width: 145px;
             top: 10px;
-            margin-left: -72px;
+            margin-left: -50px;
         }
         /*---------------
 		MAIN NAV
 	---------------*/
         #main-nav {
-            min-height: 185px;
+            min-height: 150px;
             position: relative;
         }
         #main-nav>ul {
             display: none;
             position: absolute;
             z-index: 3;
-            top: 185px;
+            top: 150px;
             left: 0;
             width: 100%;
         }
@@ -3039,7 +3048,7 @@
             padding-top: 90px;
         }
         .super-logo {
-            width: 100%;
+            width: 100px;
         }
         #dishes-left>article>img,
         #dishes-right>article>img {
