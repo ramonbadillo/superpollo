@@ -905,6 +905,8 @@
         color: #f9eb11;
         font-weight: 900;
         line-height: 1em;
+        color: #f9eb0f;
+        text-shadow: 0px 0px 3px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
     
     ul.dishes.v2>li>p:last-child {
@@ -3322,4 +3324,8 @@
         #comments>ul>li.response {
             margin-left: 30px;
         }
+    }
+    
+    .Window__WindowComponent-sc-17wvysh-1:nth-child(5) {
+        display: none!important;
     }
