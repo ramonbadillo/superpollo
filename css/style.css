@@ -1624,7 +1624,7 @@
     
     #menu {
         background-color: #fff;
-        padding: 60px 0 130px;
+        padding: 100px 0 130px;
     }
     
     #menu-nav {
@@ -2998,6 +2998,9 @@
         aside {
             display: none;
         }
+        .super-logo {
+            width: 100px;
+        }
     }
     
     @media screen and (max-width: 855px) {
@@ -3027,6 +3030,9 @@
         }
         #gallery-3c>li {
             margin-right: 0;
+        }
+        .super-logo {
+            width: 100px;
         }
     }
     
