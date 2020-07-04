@@ -260,6 +260,9 @@
         font-family: 'Lato', serif;
         color: #323232;
         font-weight: 400;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .error {
