@@ -30,6 +30,28 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <!-- favicon -->
     <link rel="icon" href="favicon.ico">
+    <script>
+        (function(e, t, r, n) {
+            var o, c, s;
+            o = e.document, c = t.children[0], s = o.createElement("script"), e.StorefrontSDKObject = "StorefrontSDK", e[e.StorefrontSDKObject] = {
+                executeCommand: function(t, r) {
+                    e[e.StorefrontSDKObject].buffer.push([t, r])
+                },
+                buffer: []
+            }, s.async = 1, s.src ='https://web-apps.cdn4dd.com/webapps/sdk-storefront/latest/sdk.js' , t.insertBefore(s, c)
+        })(window, document.head);
+        StorefrontSDK.executeCommand('renderFloatingButton', {
+            businessId: 103927,
+            businessSlug: 'Super Pollo',
+            floatingBar: true,
+            position: 'bottom',
+            buttonAlignment: 'center',
+            backgroundColor: 'transparent',
+            buttonBackgroundColor: '#0BA508',
+            borderColor: 'transparent',
+            buttonText: 'Order Pickup & Delivery',
+        })
+      </script>
 </head>
 
 <body>
@@ -90,7 +112,7 @@
                     <img src="images/slider1-decor.png" alt="stars-moustache">
 
 
-                    <a href="https://www.doordash.com/business/103927/?utm_source=partner-link&utm_medium=website&utm_campaign=103927&utm_content=red-l" target="_blank" alt="Order Food Delivery with DoorDash" title="Order Food Delivery with DoorDash" style="text-decoration: none;">
+                    <a href="https://order.online/business/super-pollo-103927" target="_blank" alt="Order Food Delivery with DoorDash" title="Order Food Delivery with DoorDash" style="text-decoration: none;">
                         <div style="position: relative; width:289px; height:59px; margin: 0px auto; background-image: url(https://cdn.doordash.com/media/button/button_red_l.svg); color:transparent">Order Food Delivery with DoorDash</div>
                     </a>
 
