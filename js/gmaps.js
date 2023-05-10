@@ -6,7 +6,7 @@ function initialize() {
     var mapOptions = {
             center: new google.maps.LatLng(33.1893793242142, -102.27369347426999),
             disableDefaultUI: true,
-            zoom: 7,
+            zoom: 8,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: true
         }
@@ -24,35 +24,35 @@ function initialize() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(32.337216, -102.551882),
         map: map,
-        title: 'SuperPollo',
+        title: 'SuperPollo Andrews',
         icon: 'images/map-marker.png'
     });
     //Downtown
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(31.850472, -102.372112),
         map: map,
-        title: 'SuperPollo',
+        title: 'SuperPollo Downtown',
         icon: 'images/map-marker.png'
     });
     //BillyHext
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(31.904758, -102.302947),
         map: map,
-        title: 'SuperPollo',
+        title: 'SuperPollo Billy Hext',
         icon: 'images/map-marker.png'
     });
     //Brownfield
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(33.1893793242142, -102.27369347426999),
         map: map,
-        title: 'SuperPollo',
+        title: 'SuperPollo Brownfield',
         icon: 'images/map-marker.png'
     });
     //Levelland
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(33.59295922117487, -102.36851225369695),
         map: map,
-        title: 'SuperPollo',
+        title: 'SuperPollo Levelland',
         icon: 'images/map-marker.png'
     });
 
