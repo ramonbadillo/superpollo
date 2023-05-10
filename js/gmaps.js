@@ -4,9 +4,9 @@ function initialize() {
     var mapCanvas = document.getElementById('map');
 
     var mapOptions = {
-            center: new google.maps.LatLng(32.2677428, -102.6826007),
+            center: new google.maps.LatLng(32.337216, -102.551882),
             disableDefaultUI: true,
-            zoom: 13,
+            zoom: 9,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: true
         }
