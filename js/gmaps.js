@@ -14,12 +14,12 @@ function initialize() {
     var map = new google.maps.Map(mapCanvas, mapOptions);
 
     //Seminole
-    var marker = new google.maps.Marker({
+    /*var marker = new google.maps.Marker({
         position: new google.maps.LatLng(32.707793, -102.645344),
         map: map,
         title: 'SuperPollo',
         icon: 'images/map-marker.png'
-    });
+    });*/
     //Andrews
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(32.337216, -102.551882),
@@ -37,6 +37,20 @@ function initialize() {
     //BillyHext
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(31.904758, -102.302947),
+        map: map,
+        title: 'SuperPollo',
+        icon: 'images/map-marker.png'
+    });
+    //Brownfield
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(33.1893793242142, -102.27369347426999),
+        map: map,
+        title: 'SuperPollo',
+        icon: 'images/map-marker.png'
+    });
+    //Levelland
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(33.59295922117487, -102.36851225369695),
         map: map,
         title: 'SuperPollo',
         icon: 'images/map-marker.png'
