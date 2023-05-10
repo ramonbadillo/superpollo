@@ -250,6 +250,77 @@
             $("figure.imgLiquidFill").imgLiquid();
         });
     </script>
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- bxSlider -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- magnificPopup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Img Liquid -->
+    <script src="js/imgLiquid-min.js"></script>
+    <!-- Tooltipster -->
+    <script src="js/jquery.tooltipster.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    <!-- Validate -->
+    <script src="js/main-validate.js"></script>
+    <!-- Contact -->
+    <!-- <script src="js/contact.js"></script> -->
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiAXpaRFV2eEQsjC1GUuBZ67UiH9JUDxQ"></script>
+    <!-- Google Maps Config -->
+    <script src="js/gmaps.js"></script>
+    <script>
+        $(function() {
+
+
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            /*-----------------
+            	MAIN SLIDER
+            -----------------*/
+            $('.main-slider').bxSlider({
+                pagerCustom: '.pager-container',
+                controls: false,
+                easing: 'ease-in',
+                speed: 800,
+                auto: true,
+                pause: 6000
+            });
+
+            /*----------------
+            	TOOLTIP
+            ----------------*/
+            $('.tooltip').tooltipster({
+                animation: 'grow',
+                position: 'bottom'
+            });
+
+            /*-----------------
+            	RESIZE IMAGE
+            -----------------*/
+            $("figure.imgLiquidFill").imgLiquid();
+
+            /*----------------
+            	IMAGE POPUP
+            ----------------*/
+            $('ul.dishes > li > div > a').magnificPopup({
+                type: 'image',
+                removalDelay: 300,
+                mainClass: 'mfp-fade',
+                image: {
+                    tError: 'The image could not be loaded.'
+                },
+                closeMarkup: '<span class="mfp-close"></span>'
+            });
+        });
+    </script>
 </body>
 
 </html>
